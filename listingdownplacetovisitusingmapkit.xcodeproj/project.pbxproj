@@ -12,6 +12,8 @@
 		DAD50D78215AD899009C43DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD50D76215AD899009C43DC /* Main.storyboard */; };
 		DAD50D7A215AD899009C43DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD50D79215AD899009C43DC /* Assets.xcassets */; };
 		DAD50D7D215AD899009C43DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD50D7B215AD899009C43DC /* LaunchScreen.storyboard */; };
+		DAD50D85215ADF48009C43DC /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD50D84215ADF48009C43DC /* PlacesViewController.swift */; };
+		DAD50D88215AFB98009C43DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD50D87215AFB98009C43DC /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DAD50D79215AD899009C43DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD50D7C215AD899009C43DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAD50D7E215AD899009C43DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD50D84215ADF48009C43DC /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		DAD50D87215AFB98009C43DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD50D88215AFB98009C43DC /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				DAD50D71215AD899009C43DC /* listingdownplacetovisitusingmapkit */,
 				DAD50D70215AD899009C43DC /* Products */,
+				DAD50D86215AFB98009C43DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,17 @@
 				DAD50D79215AD899009C43DC /* Assets.xcassets */,
 				DAD50D7B215AD899009C43DC /* LaunchScreen.storyboard */,
 				DAD50D7E215AD899009C43DC /* Info.plist */,
+				DAD50D84215ADF48009C43DC /* PlacesViewController.swift */,
 			);
 			path = listingdownplacetovisitusingmapkit;
+			sourceTree = "<group>";
+		};
+		DAD50D86215AFB98009C43DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50D87215AFB98009C43DC /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD50D85215ADF48009C43DC /* PlacesViewController.swift in Sources */,
 				DAD50D75215AD899009C43DC /* ViewController.swift in Sources */,
 				DAD50D73215AD899009C43DC /* AppDelegate.swift in Sources */,
 			);
